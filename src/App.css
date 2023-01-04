@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  background: black;
 }
 
 .App-logo {
@@ -35,4 +35,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.commentContainer {
+  border: 1px solid white;
+  padding: 20px;
+}
+
+.comment {
+  color: white;
+}
+
+.replyButton {
+
+  background: white;
+  padding: 5px 10px;
+  color: black;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.showMore {
+  cursor: pointer;
+  background: white;
+  padding: 5px 10px;
+  color: black;
+}
+
+.none {
+  display: none;
 }
